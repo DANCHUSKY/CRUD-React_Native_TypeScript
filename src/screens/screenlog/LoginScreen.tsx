@@ -35,10 +35,7 @@ function LogScreen(): JSX.Element {
                 colors={['darkblue', 'black']}
                 style={loginScreenStyles.container}
             >
-                <Image
-                    source={require('../../images/LogoNexaHome.png')}
-                    style={[{ width: 200, height: 200 }, loginScreenStyles.logoImage]}
-                />
+
                 <TextInput
                     placeholder="Usuario"
                     onChangeText={(text) => setUser(text)}
